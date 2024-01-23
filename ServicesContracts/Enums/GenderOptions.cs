@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace ServiceContracts.Enums
+﻿namespace ServiceContracts.Enums
 {
-  public enum GenderOptions
-  {
-    Male, Female, Other
-  }
+    public enum GenderOptions
+    {
+        Male, Female, Other
+    }
 }

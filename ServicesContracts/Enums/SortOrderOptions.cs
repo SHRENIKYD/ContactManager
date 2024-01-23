@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace ServiceContracts.Enums
+﻿namespace ServiceContracts.Enums
 {
-  public enum SortOrderOptions
-  {
-    ASC, DESC
-  }
+    public enum SortOrderOptions
+    {
+        ASC, DESC
+    }
 }

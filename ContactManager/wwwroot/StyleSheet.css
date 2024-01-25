@@ -2,7 +2,7 @@
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    background-color: #f7f7f7;
+    background-color: silver;
 }
 
 *
@@ -10,6 +10,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+/* Styling for the container div */
+.container1 {
+    display: flex; /* Use flexbox */
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px; /* Adjust the padding as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+}
+
+/* Styling for the child divs */
+.person, .create {
+    border: none; /* No borders */
+    margin: 0 10px 10px 0; /* Adjust margin as needed */
+    padding: 10px; /* Adjust padding as needed */
+    flex: 1; /* Distribute remaining space equally between the two divs */
+}
+
+/* Example content styling for the child divs */
+.person {
+    background-color: #3498db; /* Example background color for the person div */
+    color: #fff; /* Example text color for the person div */
+}
+
+.create {
+    background-color: #2ecc71; /* Example background color for the create div */
+    color: #fff; /* Example text color for the create div */
 }
 
 .container

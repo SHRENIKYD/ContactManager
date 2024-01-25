@@ -4,17 +4,17 @@
     ViewBag.Title = "Persons";
 }
 <form asp-controller="Persons" asp-action="Index" method="get">
-    <div class="box flex">
-        <div class="flex-1">
-            <h1>Persons</h1>
-        </div>
-        <div>
+    
+    <div class="container1">
+        <div class="person">Person</div>
+        <div class="create">
             <a asp-controller="Persons" asp-action="Create" style="text-decoration:none">
                 Create
                 <i class="fa fa-plus-circle"></i>
             </a>
         </div>
     </div>
+
 
     <div class="box flex">
         <div class="flex-1">

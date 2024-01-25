@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities
 {
@@ -21,7 +22,10 @@ namespace Entities
         public string? Address { get; set; }
         public bool ReceiveNewsLetters { get; set; }
         //Tax identification number
-
         public string? TIN { get; set; }
+
+
+        [ForeignKey("CountryID")]
+        public Country? Country { get; set; }
     }
 }

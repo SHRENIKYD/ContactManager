@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="30.1.0" />
+    <PackageReference Include="EPPlus" Version="7.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
     <ProjectReference Include="..\ServicesContracts\ServicesContracts.csproj" />
   </ItemGroup>

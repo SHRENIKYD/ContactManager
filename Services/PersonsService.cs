@@ -21,9 +21,6 @@ namespace Services
             _countriesService = countriesService;
         }
 
-
-        
-
         public async Task<PersonResponse> AddPerson(PersonAddRequest? personAddRequest)
         {
             //check if PersonAddRequest is not null
@@ -57,7 +54,6 @@ namespace Services
             return persons.
                 Select(temp => temp.ToPersonResponse()).ToList();
         }
-
 
         public async Task<PersonResponse?> GetPersonByPersonID(Guid? personID)
         {
@@ -124,7 +120,6 @@ namespace Services
             }
             return matchingPersons;
         }
-
 
         public async Task<List<PersonResponse>> GetSortedPersons(List<PersonResponse> allPersons, string sortBy, SortOrderOptions sortOrder)
         {
